@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`countriesContainerReducer handles the loadCountries action 1`] = `
+Object {
+  "countriesError": false,
+  "loadingCountries": true,
+}
+`;
+
+exports[`countriesContainerReducer handles the loadCountriesError action 1`] = `
+Object {
+  "countriesError": undefined,
+  "loadingCountries": false,
+}
+`;
+
+exports[`countriesContainerReducer handles the loadCountriesSuccess action 1`] = `
+Object {
+  "countries": undefined,
+  "countriesError": false,
+  "loadingCountries": false,
+}
+`;

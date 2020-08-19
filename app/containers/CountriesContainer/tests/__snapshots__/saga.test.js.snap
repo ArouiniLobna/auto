@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`countriesContainerSaga Saga fetchCountriesLoad Saga should call the loadCountriesError action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "https://restcountries.eu/rest/v2",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`countriesContainerSaga Saga fetchCountriesLoad Saga should call the loadCountriesError action if the response errors 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "action": Object {
+      "error": undefined,
+      "type": "app/CountriesContainer/LOAD_COUNTRIES_ERROR",
+    },
+    "channel": undefined,
+  },
+  "type": "PUT",
+}
+`;
+
+exports[`countriesContainerSaga Saga fetchCountriesLoad Saga should dispatch the loadCountriesSuccess action if it requests the data successfully 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "https://restcountries.eu/rest/v2",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`countriesContainerSaga Saga fetchCountriesLoad Saga should dispatch the loadCountriesSuccess action if it requests the data successfully 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "action": Object {
+      "error": undefined,
+      "type": "app/CountriesContainer/LOAD_COUNTRIES_ERROR",
+    },
+    "channel": undefined,
+  },
+  "type": "PUT",
+}
+`;
+
+exports[`countriesContainerSaga Saga loadCountries Saga should dispatch the loadCountriesSuccess action if it requests the data successfully 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "app/CountriesContainer/LOAD_COUNTRIES",
+      [Function],
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "FORK",
+}
+`;
+
+exports[`countriesContainerSaga Saga loadCountries Saga should dispatch the loadCountriesSuccess action if it requests the data successfully 2`] = `undefined`;

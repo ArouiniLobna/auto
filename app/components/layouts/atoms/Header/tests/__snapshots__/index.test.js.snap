@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should render and match the snapshot 1`] = `
+<header
+  class="Header__StyledHeader-sc-67m9of-0 gyOPtI"
+>
+  Performant search dropdown
+</header>
+`;
