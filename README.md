@@ -22,6 +22,7 @@ THINGS TO CONSIDER IN REAL TIME APP
 1. store the countries in global storage such as localstorage/sessionstorage/... after thr first load of the api, as this api returns will not change, it will be great addition the app performance and will save us time of loading the countries list each time we render the drop down.
 2. the flag image next to the text field, you can notice the image changing when switchin between countries selection.
 3. Consider displaying clear message to the user in case he entered a country name but did not actually selected from the drop down. This scenario can be not very clear to the users, so the UI should be able to help/quide the user in case did not do the right selection.
+4. when loading first time the countries from the api, there is error state stored, that can be used to display message and disable the textbox in case the api call returns an error and no countries get displayed.
 
 
 DEVELOPMENT PROCESS (spent 1h45min):
